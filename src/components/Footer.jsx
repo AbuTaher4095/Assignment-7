@@ -9,9 +9,7 @@ export default function Footer() {
         <div>
           <h2 className="text-white font-bold text-lg mb-3">CS — Ticket System</h2>
           <p className="text-sm leading-relaxed">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s.
+            A CS Ticket System manages customer issues through organized tickets. It tracks requests, assigns agents, monitors status (open, in-progress, resolved), improves communication, ensures timely support, and enhances overall service efficiency.
           </p>
         </div>
 
@@ -47,11 +45,16 @@ export default function Footer() {
           {/* Social Links */}
         <div className="mt-4 md:mt-0">
              <h3 className="text-white font-semibold mb-3"> Social Links</h3>
-          <div className="flex space-x-4 text-lg">
+          <div className=" space-x-2 text-lg">
+
+            <p><i class="fa-brands fa-square-facebook"></i>@CS—Ticket System</p>
+            <p><i class="fa-brands fa-square-x-twitter"></i>@CS—Ticket System</p>
+            <p><i class="fa-brands fa-square-instagram"></i>@CS—Ticket System</p>
+            <p><i class="fa-solid fa-envelope"></i>@CS—Ticket System</p>
            
-            <FaTwitter />
+            {/* <FaTwitter />
             <FaLinkedinIn />
-            <FaFacebookF />
+            <FaFacebookF /> */}
           </div>
           
         </div>
